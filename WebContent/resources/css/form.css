@@ -1,0 +1,36 @@
+body{
+	background-color: #66e0ff;
+	
+}
+.main{
+	margin:0px;
+}
+.box {
+	background:#00ccff;
+	border: 1px solid #72427a;
+	margin: 10% auto;
+	width: 250px;
+	padding: 20px;
+	border-radius: 8px;
+	
+}
+.first{
+	margin:0px auto;
+	padding-left:60px;
+}
+img:hover{
+transform:rotate(30deg);	
+}
+a {
+	text-decoration: none;
+	margin: 0px;
+}
+.button{
+	background-color: #ffff1a;
+  	border-radius: 5px;
+  	width: 168px;
+  	height:28px;
+}
+div{
+	box-sizing: border-box;
+}

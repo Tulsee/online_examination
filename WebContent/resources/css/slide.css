@@ -1,0 +1,145 @@
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+	border-size:1px;
+	border-type:solid;
+  max-width: 60%;
+}
+.sidemenu{
+	display:inline-block;
+	float:right;
+	width:20%;
+	height:100%;
+	margin-right:10%;
+	background-color:#66e0ff;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 0%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 100px) {
+  .text {font-size: 11px}
+}
+h2{
+	width:50%;
+	margin:0px;
+}
+.dropdown {
+    position: relative;
+    display: block;
+    background-color:#66e0ff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #66e0ff;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-left:0px;
+    z-index: 1;
+}
+.dropdown span{
+	background-color:#03a5fc;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.botom{
+	float:bottom;
+	border:1px solid black;
+	background-color:#66e0ff;
+	width:100%;
+	height:150px;
+	margin:0px;
+}
+.forbtn{
+	
+	background-color:#66e0ff;
+	float:bottom;
+	width:100%;
+	height:50px;
+}
+#btn{
+	height:60%;
+	background-color: aqua;
+	border-size:4px;
+	border-radius:50px;
+	margin-left:50%;
+	
+}
+.btmicon{
+	float=left;
+	height:15px;
+	width:15%;
+}
+.btmicon img{
+	height:100%;
+	width:100%;
+}
+
+.allcontain{
+	width:100%;
+	height:100%;
+	background-color:#66e0ff;
+}
+.fbck{
+	width:50%;
+	height:145px;
+}
+.fbck textarea{
+	width:100%;
+	height:100%;
+	padding-top:0px;
+	padding-left: 0px;
+	
+}
+.botom button{
+	 float: right;
+    margin-top: 70px;
+	background-color: aqua;
+	border-radius:20%;
+	height:20%;
+}
+.fdbcklive{
+	float:left;
+	margin-right:17%;
+	 
+}
+textarea{
+resize:none;
+}

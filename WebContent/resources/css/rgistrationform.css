@@ -1,0 +1,58 @@
+body {
+	margin-top: 0px;
+	background-size: cover;
+}
+.logindiv{
+	background-color:#66e0ff;
+	height:128px;
+	width:100%;
+	border: 1px solid;
+}
+.firstimg{
+	
+	width:10%;
+	height:128px;
+	float:left;
+}
+.firstimg  img{
+	height: 100%;
+	width: 100%;
+
+}
+.login{
+	background-color:#66e0ff;
+	height:100% auto;
+	width: 30% auto;
+	float: right;
+	box-sizing:border-box;
+}
+.secondDiv{
+	float:right;
+}
+
+.table1 {
+	background-color: #66e0ff;
+	width: 30%;
+	border: 1px solid;
+	box-sizing: border-box;
+	border-radius: 8px;
+	float:right;
+}
+
+.secondimg {
+	margin: 0px auto;
+	padding-left: 25px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.secondimg img:hover {
+	transform: rotate(30deg);
+}
+
+button {
+	background-color: #ffff1a;
+	width: 65%;
+	border-radius: 5px;
+	height: 100%;
+}
