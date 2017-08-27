@@ -25,7 +25,7 @@ public class EmailUtility {
 
 		Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("javademo12@gmail.com", "qwertyzz");// change
+				return new PasswordAuthentication("XYZ@gmail.com", "password");// change
 				// accordingly
 			}
 		});
@@ -33,7 +33,7 @@ public class EmailUtility {
 		// compose message
 		try {
 			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("javademo12@gmail.com"));// change
+			message.setFrom(new InternetAddress("XYZ@gmail.com"));// change
 																			// accordingly
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 			message.setSubject("Hello");
@@ -60,7 +60,7 @@ public class EmailUtility {
 
 		Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("javademo12@gmail.com", "qwertyzz");// change
+				return new PasswordAuthentication("XYZ@gmail.com", "password");// change
 				// accordingly
 			}
 		});
@@ -73,7 +73,7 @@ public class EmailUtility {
 			UserDao udao = new UserDaoImp();
 			udao.updateUserPassword(rand, userName);
 			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("javademo12@gmail.com"));// change
+			message.setFrom(new InternetAddress("XYZ@gmail.com"));// change
 			// accordingly
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 			message.setSubject("Password Recovery ");
